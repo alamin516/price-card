@@ -1,0 +1,284 @@
+body {
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+
+#offers-section {
+    position: relative;
+    padding-bottom: 2.5rem;
+}
+
+.offers-heading.black-small {
+    color: #f1eeee !important;
+    -webkit-text-fill-color: #fff;
+    padding: 3.5rem 0 auto;
+    font-size: 40px;
+}
+
+.offers-heading {
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(45deg, #d7c9ac, #fef3d0, #d7c9ac, #fafac8, #d7c9ac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 1;
+    text-align: center;
+    color: #f1eeee;
+}
+
+.pt-5 {
+    padding-top: 1.25rem;
+}
+
+#offers-section .offers-section-cards-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: auto;
+    gap: 0 3rem;
+    padding-top: 2.5rem;
+}
+
+.card-component {
+    position: relative;
+    margin: 2rem 0;
+    padding: 1.5rem 2.5rem !important;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+    background: hsla(0, 0%, 100%, .165);
+    color: #f1eeee;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    background: linear-gradient(90deg, #040707, hsla(55, 92%, 86%, .055), #040707);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .253);
+    border: 3px solid #d7c9ac;
+}
+
+.backdrop-blur-sm {
+    --tw-backdrop-blur: blur(4px);
+    -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+    backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.max-w-350{
+    max-width: 350px;
+}
+
+.relative {
+    position: relative;
+}
+
+#offers-section .offers-section-cards-wrapper a {
+    text-decoration: none;
+}
+
+.card-component .special-offer {
+    background: url(https://web-creation.co/miraj/wp-content/uploads/2024/01/10005.png) no-repeat 50%/contain;
+    height: 180px;
+    position: absolute;
+    top: -22px;
+    left: -28px;
+    width: 180px;
+}
+
+.card-component .card-heading {
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif !important;
+    background: -webkit-linear-gradient(45deg, #d7c9ac, #fef3d0, #d7c9ac, #fafac8, #d7c9ac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+}
+
+.leading-tight {
+    line-height: 1.25;
+    color: #fff;
+}
+
+.\!text-7xl {
+    font-size: 4.5rem !important;
+    line-height: 1 !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.\!text-5xl {
+    font-size: 3rem !important;
+    line-height: 1 !important;
+}
+
+.\!text-3xl {
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
+}
+
+.font-anton {
+    font-family: 'Barlow Condensed', sans-serif !important;
+    margin: 0;
+}
+
+.max-w-\[300px\] {
+    max-width: 300px;
+}
+
+.mt-3 {
+    margin-top: 0.75rem;
+}
+
+.card-component .card-image {
+    border-radius: 11px;
+    transition: all .3s ease;
+}
+
+.card-component .card-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.line-through {
+    text-decoration-line: line-through;
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.pt-3 {
+    padding-top: 0.75rem;
+}
+
+.card-component .card-price {
+    background: -webkit-linear-gradient(45deg, #d7c9ac, #fef3d0, #d7c9ac, #fafac8, #d7c9ac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+}
+
+
+.card-component .card-button {
+    font-family: 'Barlow Condensed', sans-serif !important;
+    max-width: 250px;
+    min-width: 250px;
+    padding: 1.2rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    opacity: 1;
+    color: #f1eeee;
+    background: -webkit-linear-gradient(45deg, #a70101, #e92828, #a70101, #e92828, #a70101);
+    -webkit-background-clip: background-color;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: #fff;
+    display: block;
+    font-weight: 900 !important;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.shipping{
+    font-weight: 600;
+}
+
+.card-component:hover {
+    transform: scale(1.03)
+}
+
+.card-component .card-image:hover.upsell {
+    box-shadow: 0 0 0 #231f20
+}
+
+.card-component .card-button:hover {
+    background-position: 100%;
+    color: #fff;
+    text-decoration: none
+}
+
+
+
+
+@media only screen and (max-width: 1520px) {
+    .offers-heading.black-small {
+        font-size: 35px !important;
+    }
+
+    .card-component .card-button {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .card-component {
+        margin: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 1450px) {
+    #offers-section .offers-section-cards-wrapper {
+        gap: 0;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    .card-component .card-button {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .offers-heading.black-small {
+        font-size: 35px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .offers-heading.black-small {
+        font-size: 35px !important;
+    }
+
+    .card-component .card-heading {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .offers-heading.black,
+    .offers-heading.black-small {
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .card-component {
+        padding: 6rem 2.5rem 1.5rem;
+        width: 100%
+    }
+}
